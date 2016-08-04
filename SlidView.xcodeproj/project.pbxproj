@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53DA0B8129443DE015554B7B /* libPods-SlidViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDD60C2BF26D51A30E370AF /* libPods-SlidViewTests.a */; };
+		684ECA611D52DED3005A71EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 684ECA601D52DED3005A71EE /* main.m */; };
+		684ECA641D52DED3005A71EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 684ECA631D52DED3005A71EE /* AppDelegate.m */; };
+		684ECA671D52DED3005A71EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 684ECA661D52DED3005A71EE /* ViewController.m */; };
+		684ECA6A1D52DED3005A71EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 684ECA681D52DED3005A71EE /* Main.storyboard */; };
+		684ECA6C1D52DED3005A71EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 684ECA6B1D52DED3005A71EE /* Assets.xcassets */; };
+		684ECA6F1D52DED3005A71EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 684ECA6D1D52DED3005A71EE /* LaunchScreen.storyboard */; };
+		684ECA7A1D52DED3005A71EE /* SlidViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 684ECA791D52DED3005A71EE /* SlidViewTests.m */; };
+		684ECA851D52DED3005A71EE /* SlidViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 684ECA841D52DED3005A71EE /* SlidViewUITests.m */; };
+		684ECA941D52DEE4005A71EE /* JLSlidPlusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 684ECA931D52DEE4005A71EE /* JLSlidPlusView.m */; };
+		684ECA971D52DF4F005A71EE /* JLSlidViewex.m in Sources */ = {isa = PBXBuildFile; fileRef = 684ECA961D52DF4F005A71EE /* JLSlidViewex.m */; };
+		B183F9AE692EA3E54D37A44A /* libPods-SlidViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92735BADDF6981E1364C9527 /* libPods-SlidViewUITests.a */; };
+		B81EE87F2C7807CA15849B43 /* libPods-SlidView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD6A38A0F890F021E85CF9C /* libPods-SlidView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		684ECA761D52DED3005A71EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 684ECA541D52DED3005A71EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 684ECA5B1D52DED3005A71EE;
+			remoteInfo = SlidView;
+		};
+		684ECA811D52DED3005A71EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 684ECA541D52DED3005A71EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 684ECA5B1D52DED3005A71EE;
+			remoteInfo = SlidView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AC1297F87383519C678B31A /* Pods-SlidView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlidView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SlidView/Pods-SlidView.debug.xcconfig"; sourceTree = "<group>"; };
+		0D46E95F242857544E2C68E4 /* Pods-SlidViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlidViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SlidViewUITests/Pods-SlidViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C1D9484D05A3BCE6541C7D7 /* Pods-SlidView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlidView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SlidView/Pods-SlidView.release.xcconfig"; sourceTree = "<group>"; };
+		57DCB10DF35CA9BE249D0F76 /* Pods-SlidViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlidViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SlidViewUITests/Pods-SlidViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		67E6BB71D6924FAE304667DA /* Pods-SlidViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlidViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SlidViewTests/Pods-SlidViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		684ECA5C1D52DED3005A71EE /* SlidView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlidView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		684ECA601D52DED3005A71EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		684ECA621D52DED3005A71EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		684ECA631D52DED3005A71EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		684ECA651D52DED3005A71EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		684ECA661D52DED3005A71EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		684ECA691D52DED3005A71EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		684ECA6B1D52DED3005A71EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		684ECA6E1D52DED3005A71EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		684ECA701D52DED3005A71EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		684ECA751D52DED3005A71EE /* SlidViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlidViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		684ECA791D52DED3005A71EE /* SlidViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlidViewTests.m; sourceTree = "<group>"; };
+		684ECA7B1D52DED3005A71EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		684ECA801D52DED3005A71EE /* SlidViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlidViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		684ECA841D52DED3005A71EE /* SlidViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlidViewUITests.m; sourceTree = "<group>"; };
+		684ECA861D52DED3005A71EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		684ECA921D52DEE4005A71EE /* JLSlidPlusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLSlidPlusView.h; sourceTree = "<group>"; };
+		684ECA931D52DEE4005A71EE /* JLSlidPlusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLSlidPlusView.m; sourceTree = "<group>"; };
+		684ECA951D52DF4F005A71EE /* JLSlidViewex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLSlidViewex.h; sourceTree = "<group>"; };
+		684ECA961D52DF4F005A71EE /* JLSlidViewex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLSlidViewex.m; sourceTree = "<group>"; };
+		6BD6A38A0F890F021E85CF9C /* libPods-SlidView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SlidView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92735BADDF6981E1364C9527 /* libPods-SlidViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SlidViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD1D7B12CD3710F0C9E8801B /* Pods-SlidViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlidViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SlidViewTests/Pods-SlidViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		DEDD60C2BF26D51A30E370AF /* libPods-SlidViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SlidViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		684ECA591D52DED3005A71EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B81EE87F2C7807CA15849B43 /* libPods-SlidView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684ECA721D52DED3005A71EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53DA0B8129443DE015554B7B /* libPods-SlidViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684ECA7D1D52DED3005A71EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B183F9AE692EA3E54D37A44A /* libPods-SlidViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FDD7C4FECAA13E1205F4AF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AC1297F87383519C678B31A /* Pods-SlidView.debug.xcconfig */,
+				1C1D9484D05A3BCE6541C7D7 /* Pods-SlidView.release.xcconfig */,
+				67E6BB71D6924FAE304667DA /* Pods-SlidViewTests.debug.xcconfig */,
+				DD1D7B12CD3710F0C9E8801B /* Pods-SlidViewTests.release.xcconfig */,
+				0D46E95F242857544E2C68E4 /* Pods-SlidViewUITests.debug.xcconfig */,
+				57DCB10DF35CA9BE249D0F76 /* Pods-SlidViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		684ECA531D52DED3005A71EE = {
+			isa = PBXGroup;
+			children = (
+				684ECA5E1D52DED3005A71EE /* SlidView */,
+				684ECA781D52DED3005A71EE /* SlidViewTests */,
+				684ECA831D52DED3005A71EE /* SlidViewUITests */,
+				684ECA5D1D52DED3005A71EE /* Products */,
+				0FDD7C4FECAA13E1205F4AF8 /* Pods */,
+				C18F83775B00BD98D3708C79 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		684ECA5D1D52DED3005A71EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				684ECA5C1D52DED3005A71EE /* SlidView.app */,
+				684ECA751D52DED3005A71EE /* SlidViewTests.xctest */,
+				684ECA801D52DED3005A71EE /* SlidViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		684ECA5E1D52DED3005A71EE /* SlidView */ = {
+			isa = PBXGroup;
+			children = (
+				684ECA621D52DED3005A71EE /* AppDelegate.h */,
+				684ECA631D52DED3005A71EE /* AppDelegate.m */,
+				684ECA651D52DED3005A71EE /* ViewController.h */,
+				684ECA661D52DED3005A71EE /* ViewController.m */,
+				684ECA921D52DEE4005A71EE /* JLSlidPlusView.h */,
+				684ECA931D52DEE4005A71EE /* JLSlidPlusView.m */,
+				684ECA951D52DF4F005A71EE /* JLSlidViewex.h */,
+				684ECA961D52DF4F005A71EE /* JLSlidViewex.m */,
+				684ECA681D52DED3005A71EE /* Main.storyboard */,
+				684ECA6B1D52DED3005A71EE /* Assets.xcassets */,
+				684ECA6D1D52DED3005A71EE /* LaunchScreen.storyboard */,
+				684ECA701D52DED3005A71EE /* Info.plist */,
+				684ECA5F1D52DED3005A71EE /* Supporting Files */,
+			);
+			path = SlidView;
+			sourceTree = "<group>";
+		};
+		684ECA5F1D52DED3005A71EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				684ECA601D52DED3005A71EE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		684ECA781D52DED3005A71EE /* SlidViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				684ECA791D52DED3005A71EE /* SlidViewTests.m */,
+				684ECA7B1D52DED3005A71EE /* Info.plist */,
+			);
+			path = SlidViewTests;
+			sourceTree = "<group>";
+		};
+		684ECA831D52DED3005A71EE /* SlidViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				684ECA841D52DED3005A71EE /* SlidViewUITests.m */,
+				684ECA861D52DED3005A71EE /* Info.plist */,
+			);
+			path = SlidViewUITests;
+			sourceTree = "<group>";
+		};
+		C18F83775B00BD98D3708C79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BD6A38A0F890F021E85CF9C /* libPods-SlidView.a */,
+				DEDD60C2BF26D51A30E370AF /* libPods-SlidViewTests.a */,
+				92735BADDF6981E1364C9527 /* libPods-SlidViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		684ECA5B1D52DED3005A71EE /* SlidView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 684ECA891D52DED3005A71EE /* Build configuration list for PBXNativeTarget "SlidView" */;
+			buildPhases = (
+				40462BD18BF29BE849A76C01 /* [CP] Check Pods Manifest.lock */,
+				684ECA581D52DED3005A71EE /* Sources */,
+				684ECA591D52DED3005A71EE /* Frameworks */,
+				684ECA5A1D52DED3005A71EE /* Resources */,
+				21BA092BDAAE589648AFE266 /* [CP] Embed Pods Frameworks */,
+				9E714649CAD98FE9DC11F379 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlidView;
+			productName = SlidView;
+			productReference = 684ECA5C1D52DED3005A71EE /* SlidView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		684ECA741D52DED3005A71EE /* SlidViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 684ECA8C1D52DED3005A71EE /* Build configuration list for PBXNativeTarget "SlidViewTests" */;
+			buildPhases = (
+				379C0267ED64973371AF62AB /* [CP] Check Pods Manifest.lock */,
+				684ECA711D52DED3005A71EE /* Sources */,
+				684ECA721D52DED3005A71EE /* Frameworks */,
+				684ECA731D52DED3005A71EE /* Resources */,
+				C0E89737400CAB41D4AC5C0A /* [CP] Embed Pods Frameworks */,
+				DA8ADEB49767A29673112493 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				684ECA771D52DED3005A71EE /* PBXTargetDependency */,
+			);
+			name = SlidViewTests;
+			productName = SlidViewTests;
+			productReference = 684ECA751D52DED3005A71EE /* SlidViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		684ECA7F1D52DED3005A71EE /* SlidViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 684ECA8F1D52DED3005A71EE /* Build configuration list for PBXNativeTarget "SlidViewUITests" */;
+			buildPhases = (
+				0BC95FA7CE8298BC80D9C276 /* [CP] Check Pods Manifest.lock */,
+				684ECA7C1D52DED3005A71EE /* Sources */,
+				684ECA7D1D52DED3005A71EE /* Frameworks */,
+				684ECA7E1D52DED3005A71EE /* Resources */,
+				8CB074FF5C85604084D09DF6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				684ECA821D52DED3005A71EE /* PBXTargetDependency */,
+			);
+			name = SlidViewUITests;
+			productName = SlidViewUITests;
+			productReference = 684ECA801D52DED3005A71EE /* SlidViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		684ECA541D52DED3005A71EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JL;
+				TargetAttributes = {
+					684ECA5B1D52DED3005A71EE = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					684ECA741D52DED3005A71EE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 684ECA5B1D52DED3005A71EE;
+					};
+					684ECA7F1D52DED3005A71EE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 684ECA5B1D52DED3005A71EE;
+					};
+				};
+			};
+			buildConfigurationList = 684ECA571D52DED3005A71EE /* Build configuration list for PBXProject "SlidView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 684ECA531D52DED3005A71EE;
+			productRefGroup = 684ECA5D1D52DED3005A71EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				684ECA5B1D52DED3005A71EE /* SlidView */,
+				684ECA741D52DED3005A71EE /* SlidViewTests */,
+				684ECA7F1D52DED3005A71EE /* SlidViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		684ECA5A1D52DED3005A71EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				684ECA6F1D52DED3005A71EE /* LaunchScreen.storyboard in Resources */,
+				684ECA6C1D52DED3005A71EE /* Assets.xcassets in Resources */,
+				684ECA6A1D52DED3005A71EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684ECA731D52DED3005A71EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684ECA7E1D52DED3005A71EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BC95FA7CE8298BC80D9C276 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		21BA092BDAAE589648AFE266 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlidView/Pods-SlidView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		379C0267ED64973371AF62AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		40462BD18BF29BE849A76C01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8CB074FF5C85604084D09DF6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlidViewUITests/Pods-SlidViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E714649CAD98FE9DC11F379 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlidView/Pods-SlidView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0E89737400CAB41D4AC5C0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlidViewTests/Pods-SlidViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA8ADEB49767A29673112493 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlidViewTests/Pods-SlidViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		684ECA581D52DED3005A71EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				684ECA941D52DEE4005A71EE /* JLSlidPlusView.m in Sources */,
+				684ECA671D52DED3005A71EE /* ViewController.m in Sources */,
+				684ECA971D52DF4F005A71EE /* JLSlidViewex.m in Sources */,
+				684ECA641D52DED3005A71EE /* AppDelegate.m in Sources */,
+				684ECA611D52DED3005A71EE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684ECA711D52DED3005A71EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				684ECA7A1D52DED3005A71EE /* SlidViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684ECA7C1D52DED3005A71EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				684ECA851D52DED3005A71EE /* SlidViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		684ECA771D52DED3005A71EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 684ECA5B1D52DED3005A71EE /* SlidView */;
+			targetProxy = 684ECA761D52DED3005A71EE /* PBXContainerItemProxy */;
+		};
+		684ECA821D52DED3005A71EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 684ECA5B1D52DED3005A71EE /* SlidView */;
+			targetProxy = 684ECA811D52DED3005A71EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		684ECA681D52DED3005A71EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				684ECA691D52DED3005A71EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		684ECA6D1D52DED3005A71EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				684ECA6E1D52DED3005A71EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		684ECA871D52DED3005A71EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		684ECA881D52DED3005A71EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		684ECA8A1D52DED3005A71EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AC1297F87383519C678B31A /* Pods-SlidView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlidView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jl.hehe.SlidView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		684ECA8B1D52DED3005A71EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1D9484D05A3BCE6541C7D7 /* Pods-SlidView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlidView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jl.hehe.SlidView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		684ECA8D1D52DED3005A71EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67E6BB71D6924FAE304667DA /* Pods-SlidViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlidViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jl.hehe.SlidViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlidView.app/SlidView";
+			};
+			name = Debug;
+		};
+		684ECA8E1D52DED3005A71EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD1D7B12CD3710F0C9E8801B /* Pods-SlidViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlidViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jl.hehe.SlidViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlidView.app/SlidView";
+			};
+			name = Release;
+		};
+		684ECA901D52DED3005A71EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D46E95F242857544E2C68E4 /* Pods-SlidViewUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SlidViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jl.hehe.SlidViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlidView;
+			};
+			name = Debug;
+		};
+		684ECA911D52DED3005A71EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57DCB10DF35CA9BE249D0F76 /* Pods-SlidViewUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SlidViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jl.hehe.SlidViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlidView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		684ECA571D52DED3005A71EE /* Build configuration list for PBXProject "SlidView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				684ECA871D52DED3005A71EE /* Debug */,
+				684ECA881D52DED3005A71EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		684ECA891D52DED3005A71EE /* Build configuration list for PBXNativeTarget "SlidView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				684ECA8A1D52DED3005A71EE /* Debug */,
+				684ECA8B1D52DED3005A71EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		684ECA8C1D52DED3005A71EE /* Build configuration list for PBXNativeTarget "SlidViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				684ECA8D1D52DED3005A71EE /* Debug */,
+				684ECA8E1D52DED3005A71EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		684ECA8F1D52DED3005A71EE /* Build configuration list for PBXNativeTarget "SlidViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				684ECA901D52DED3005A71EE /* Debug */,
+				684ECA911D52DED3005A71EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 684ECA541D52DED3005A71EE /* Project object */;
+}
